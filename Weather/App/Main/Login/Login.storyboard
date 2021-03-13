@@ -18,10 +18,21 @@
                         <viewLayoutGuide key="safeArea" id="BJ8-8n-Kse"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <segue destination="6dX-dM-vQa" kind="presentation" identifier="climatesListSegue" modalPresentationStyle="fullScreen" id="A49-tJ-mix"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6jy-h1-cvL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-178" y="137"/>
+        </scene>
+        <!--ClimatesList-->
+        <scene sceneID="H33-Hq-07O">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ClimatesList" id="6dX-dM-vQa" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xbG-kP-F1o" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="596" y="137"/>
         </scene>
     </scenes>
     <resources>

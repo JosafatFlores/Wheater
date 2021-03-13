@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		52D521DB25FB2432005590C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D521DA25FB2432005590C3 /* AppDelegate.swift */; };
 		52D521DD25FB2432005590C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D521DC25FB2432005590C3 /* SceneDelegate.swift */; };
-		52D521E425FB2434005590C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D521E325FB2434005590C3 /* Assets.xcassets */; };
+		52D521E425FB2434005590C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D521E325FB2434005590C3 /* Images.xcassets */; };
 		52D521E725FB2434005590C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D521E525FB2434005590C3 /* LaunchScreen.storyboard */; };
 		52D521F225FB2434005590C3 /* WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D521F125FB2434005590C3 /* WeatherTests.swift */; };
 		52D521FD25FB2434005590C3 /* WeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D521FC25FB2434005590C3 /* WeatherUITests.swift */; };
 		52D5221525FB261F005590C3 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D5221425FB261F005590C3 /* Login.storyboard */; };
 		52D5221A25FB2634005590C3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D5221925FB2634005590C3 /* LoginViewController.swift */; };
+		52D5222B25FB2FEF005590C3 /* Sesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D5222A25FB2FEF005590C3 /* Sesion.swift */; };
+		52D5223325FB3200005590C3 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D5223225FB3200005590C3 /* Colors.xcassets */; };
+		52D5223825FB3EB9005590C3 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D5223725FB3EB9005590C3 /* LoginPresenter.swift */; };
+		52D5224925FB40B9005590C3 /* ClimatesList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D5224825FB40B9005590C3 /* ClimatesList.storyboard */; };
+		52D5224E25FB4450005590C3 /* ClimatesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D5224D25FB4450005590C3 /* ClimatesListViewController.swift */; };
+		52D5225325FB445E005590C3 /* ClimatesListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D5225225FB445E005590C3 /* ClimatesListPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,7 @@
 		52D521D725FB2432005590C3 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D521DA25FB2432005590C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52D521DC25FB2432005590C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52D521E325FB2434005590C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52D521E325FB2434005590C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		52D521E625FB2434005590C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52D521E825FB2434005590C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52D521ED25FB2434005590C3 /* WeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +55,12 @@
 		52D521FE25FB2434005590C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52D5221425FB261F005590C3 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		52D5221925FB2634005590C3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		52D5222A25FB2FEF005590C3 /* Sesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sesion.swift; sourceTree = "<group>"; };
+		52D5223225FB3200005590C3 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		52D5223725FB3EB9005590C3 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		52D5224825FB40B9005590C3 /* ClimatesList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ClimatesList.storyboard; sourceTree = "<group>"; };
+		52D5224D25FB4450005590C3 /* ClimatesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimatesListViewController.swift; sourceTree = "<group>"; };
+		52D5225225FB445E005590C3 /* ClimatesListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimatesListPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +139,8 @@
 		52D5220D25FB2585005590C3 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				52D5221025FB2609005590C3 /* Login */,
+				52D5222825FB2FC7005590C3 /* System */,
+				52D5222725FB2FB9005590C3 /* Main */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -146,7 +159,8 @@
 		52D5220F25FB25A8005590C3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				52D521E325FB2434005590C3 /* Assets.xcassets */,
+				52D521E325FB2434005590C3 /* Images.xcassets */,
+				52D5223225FB3200005590C3 /* Colors.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -156,8 +170,44 @@
 			children = (
 				52D5221425FB261F005590C3 /* Login.storyboard */,
 				52D5221925FB2634005590C3 /* LoginViewController.swift */,
+				52D5223725FB3EB9005590C3 /* LoginPresenter.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		52D5222725FB2FB9005590C3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				52D5223C25FB4072005590C3 /* ClimatesList */,
+				52D5221025FB2609005590C3 /* Login */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		52D5222825FB2FC7005590C3 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				52D5222925FB2FDB005590C3 /* Sesion */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		52D5222925FB2FDB005590C3 /* Sesion */ = {
+			isa = PBXGroup;
+			children = (
+				52D5222A25FB2FEF005590C3 /* Sesion.swift */,
+			);
+			path = Sesion;
+			sourceTree = "<group>";
+		};
+		52D5223C25FB4072005590C3 /* ClimatesList */ = {
+			isa = PBXGroup;
+			children = (
+				52D5224825FB40B9005590C3 /* ClimatesList.storyboard */,
+				52D5224D25FB4450005590C3 /* ClimatesListViewController.swift */,
+				52D5225225FB445E005590C3 /* ClimatesListPresenter.swift */,
+			);
+			path = ClimatesList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +314,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				52D521E725FB2434005590C3 /* LaunchScreen.storyboard in Resources */,
-				52D521E425FB2434005590C3 /* Assets.xcassets in Resources */,
+				52D5223325FB3200005590C3 /* Colors.xcassets in Resources */,
+				52D5224925FB40B9005590C3 /* ClimatesList.storyboard in Resources */,
+				52D521E425FB2434005590C3 /* Images.xcassets in Resources */,
 				52D5221525FB261F005590C3 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,9 +342,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D5222B25FB2FEF005590C3 /* Sesion.swift in Sources */,
 				52D5221A25FB2634005590C3 /* LoginViewController.swift in Sources */,
 				52D521DB25FB2432005590C3 /* AppDelegate.swift in Sources */,
 				52D521DD25FB2432005590C3 /* SceneDelegate.swift in Sources */,
+				52D5224E25FB4450005590C3 /* ClimatesListViewController.swift in Sources */,
+				52D5223825FB3EB9005590C3 /* LoginPresenter.swift in Sources */,
+				52D5225325FB445E005590C3 /* ClimatesListPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
