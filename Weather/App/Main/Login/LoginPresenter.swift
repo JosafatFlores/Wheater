@@ -17,6 +17,8 @@ class LoginPresenter: NSObject {
         if user == "JozafatCronox" && password == "Pass"{
             loginView?.logged()
         }else{
-            loginView?.error(title: "Login", message: "User or password are wrong")        }
+            loginView?.error(title: "Login", message: "User or password are wrong")
+            
+        }
     }
 }

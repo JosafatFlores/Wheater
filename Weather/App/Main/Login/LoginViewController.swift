@@ -40,7 +40,7 @@ class LoginViewController: UIViewController {
         let textfield = UITextField()
         textfield.textAlignment = .center
         textfield.backgroundColor = .white
-        textfield.textColor = UIColor(named: "font")
+        textfield.textColor = .black
         textfield.layer.cornerRadius = 15
         textfield.placeholder = "USER"
         textfield.translatesAutoresizingMaskIntoConstraints = false
@@ -53,8 +53,9 @@ class LoginViewController: UIViewController {
         textfield.textAlignment = .center
         textfield.backgroundColor = .white
         textfield.layer.cornerRadius = 15
-        textfield.textColor = UIColor(named: "font")
+        textfield.textColor = .black
         textfield.placeholder = "PASSWORD"
+        textfield.isSecureTextEntry = true
         textfield.translatesAutoresizingMaskIntoConstraints = false
         return textfield
     }()
@@ -95,7 +96,7 @@ class LoginViewController: UIViewController {
         backLogoImg.topAnchor.constraint(equalTo: view.topAnchor, constant: -10).isActive = true
         backLogoImg.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
         backLogoImg.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
-        backLogoImg.heightAnchor.constraint(equalToConstant: Sesion.instance.topPading + 150).isActive = true
+        backLogoImg.heightAnchor.constraint(equalToConstant: Sesion.instance.topPadding + 150).isActive = true
         
         backLogoImg.addSubview(logoImg)
         
